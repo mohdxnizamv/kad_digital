@@ -29,9 +29,3 @@
     @apply leading-none sm:text-lg md:text-lg lg:text-xl xl:text-xl font-medium;
   }
 }
-
-@layer components {
-  .kad-jemputan {
-    @apply bg-[url('./image/flowers3.jpg')];
-  }
-}

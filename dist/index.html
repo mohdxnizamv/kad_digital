@@ -12,34 +12,62 @@
 
     <title>Walimatulurus</title>
   </head>
-  <body>
-    <div class="min-h-screen flex justify-center items-center">
-      <h6 id="element" class="bg-black/30">Assalamualaikum,</h6>
-    </div>
+  <body class="bg-teal-100">
+    <main class="container mx-auto max-w-2xl p-2">
+      <div class="min-h-screen flex justify-center items-center">
+        <h6 id="satu" class="bg-black/30">Assalamualaikum,</h6>
+      </div>
 
-    <main class="min-h-screen mx-auto text-center leading-relaxed">
-      <h6 class="text-gray-950">Majlis Kesyukuran</h6>
-      <p class="underline hover:decoration-dashed p-3">Undangan</p>
+      <div class="min-h-screen justify-center items-center">
+        <div
+          class="rounded-[11px] bg-black/20 p-1 drop-shadow-lg-shadow sm:w-[mx-auto] xl:w-[430px]"
+        >
+          <div
+            class="flex-col rounded-[11px] bg-transparent p-3 sm:w-[mx-auto] xl:w-[420px]"
+          >
+            <div class="flex-col space-y-3 text-center leading-relaxed">
+              <h6 class="text-gray-950">Majlis Kesyukuran</h6>
 
-      <p>Firdaus Moktar <br />Nadzirah Mad Yusof</p>
+              <p class="p-3 text-2xl">Undangan</p>
 
-      <p class="p-3">
-        dengan segala hormatnya dijemput hadir ke majlis kesyukuran putera dan
-        puteri kami bersama pasangannya
-      </p>
+              <p id="dua" class="underline decoration-dashed text-xl"></p>
 
-      <p class="mt-10">
-        pada
-        <span class="font-extrabold text-gray-950">10 December 2023</span>
-      </p>
+              <p class="p-3">
+                Dengan segala hormatnya dijemput hadir ke majlis kesyukuran
+                putera dan puteri kami bersama pasangannya
+              </p>
+
+              <p class="mt-10">
+                pada
+                <span class="font-extrabold text-gray-950"
+                  >10 December 2023</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <script>
+      var typed = new Typed("#satu", {
+        strings: ["Walimatulurus", "Uwais", "Dan", "Aisyah"],
+        fadeOut: true,
+        loop: true,
+        fadeOutDelay: 500,
+        fadeOutClass: "typed-fade-out",
+      })
+    </script>
 
     <script>
-      var typed = new Typed("#element", {
-        strings: ["Walimatulurus", "Uwais & Aisyah"],
-        typeSpeed: 100,
-        backSpeed: 100,
+      var typed = new Typed("#dua", {
+        strings: [
+          "Firdaus Moktar",
+          "Nadzirah Mad Yusof",
+          "Mad Yusof Jamil",
+          "Salina Ramli",
+        ],
         loop: true,
+        stringsElement: null,
       })
     </script>
   </body>
